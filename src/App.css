@@ -1,0 +1,98 @@
+header {
+  margin: 0 auto;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c2410c;
+  align-items: center;
+  padding: 8px 24px;
+  border-radius: 0 0 50px 50px;
+  color: #f4f4f4;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.body {
+  margin: 0 auto;
+  width: 1200px;
+  min-height: 100vh;
+  background-color: #fff7ed;
+  /* padding: 48px; */
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bodyBrandName {
+  padding: 24px 48px 48px 48px;
+  border-bottom: #c2410c solid 2px;
+}
+
+.brandDescription {
+  width: 1200px;
+  background-color: #ffffff;
+  padding: 48px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 18px;
+  border: #c2410c solid 3px;
+  height: 374px;
+  width: 256px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.modalHeader {
+  height: 32px;
+  background-color: #c2410c;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodyModalSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.modalDescription {
+  padding: 18px;
+}
+
+.modalFooter {
+  height: 32px;
+  background-color: #c2410c;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalFooter:hover {
+  cursor: pointer;
+  color: #fdba74;
+}
+footer {
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #c2410c;
+  height: 48px;
+}
